@@ -10,6 +10,7 @@ const app = express();
 const allowedOrigins = [
   "https://client-instant.netlify.app",
   "http://localhost:5173",
+  "https://instantcode-backend-test.onrender.com/",
 ];
 
 app.use((req, res, next) => {
