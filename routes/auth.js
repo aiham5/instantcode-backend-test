@@ -42,7 +42,7 @@ router.get(
     const jwt = require("jsonwebtoken");
     const token = jwt.sign({ id: req.user.id }, process.env.JWT_SECRET);
     res.redirect(
-      `https://instantcode-backend-test.onrender.com/oauth-redirect?token=${token}`
+      `https://glowing-tulumba-2b0acc.netlify.app/oauth-redirect?token=${token}`
     );
   }
 );
