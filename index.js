@@ -20,7 +20,7 @@ app.use(passport.session());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://instantcode-backend-test.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
