@@ -8,7 +8,7 @@ require("./passport");
 const app = express();
 
 const allowedOrigins = [
-  "https://client-test-instantcode.netlify.app",
+  "https://client-instant.netlify.app/",
   "http://localhost:5173",
 ];
 
